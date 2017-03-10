@@ -1,0 +1,26 @@
+.background{
+	background-color: #ccc;
+	width: 400px;
+	height:200px;
+	position: absolute;
+	top:calc((100% - 200px)/2);
+	left:calc((100% - 400px)/2);
+}
+
+.cycleL{
+	width: 50px;
+	height: 50px;
+	background-color: #fc0;
+	-webkit-border-radius: 0 0 50px 0;
+}
+
+
+.cycleR{
+	width: 50px;
+	height: 50px;
+	background-color: #fc0;
+	-webkit-border-radius: 50px 0 0 0;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}

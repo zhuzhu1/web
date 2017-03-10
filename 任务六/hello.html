@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>研究生考试时间</title>
+
+</head>
+<style type="text/css">
+  #content2{
+    width:400px;
+    height:110px;
+    border:1px solid #345;
+    overflow: hidden;
+  }
+
+</style>
+<script language="javascript" type="text/javascript">     
+  window.onload = function(){
+　　  var area = document.getElementById('content2');
+      var con1 = document.getElementById('con1');
+      var con2 = document.getElementById('con2');
+      con2.innerHTML = con1.innerHTML;
+      area.scrollTop = 0;
+      var time = 500;
+      console.log(area.scrollHeight);
+      console.log(con1.offsetHeight);
+      // setInterval(function()
+      // {
+      //     area.scrollTop+=10;
+      // },time);
+    }
+</script>
+</head>
+<body>
+   <div id="content2" >
+    <ul id = "con1">
+        <li>程序设计课程  2016-02-00</li>
+        <li>慕课网课程  2016-02-00</li>
+        <li>JavaScript课程  2016-02-00</li>
+        <li>CSS深入浅出课程  2016-02-00</li>
+        <li>JQuery课程  2016-02-00</li>
+        <li>java I love you课程  2016-02-00</li>
+        <li>Hello world课程  2016-02-00</li>
+        <li>编程思想课程  2016-02-00</li>
+    </ul>
+    <ul id = "con2">
+    </ul>
+   </div>
+
+</body>
+</html>

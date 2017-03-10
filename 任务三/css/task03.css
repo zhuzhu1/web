@@ -1,0 +1,50 @@
+body{
+	background-color: #eee;
+	border:thin solid #999;
+	padding:20px;
+	margin: 20px;
+}
+
+.leftdiv{
+	width: 160px;
+	padding: 20px;
+	float: left;
+	border:thin solid #999;
+	background-color: #FFFFFF;
+}
+.leftdiv .img{
+	display: inline-block;
+	margin-right: 10px;
+}
+.leftdiv .header{
+	float:right;
+	font-family: Verdana, Geneva, Arial, Sans-serif;
+	width: 50px;
+}
+
+.rightdiv{
+	width: 120px;
+	float:right;
+	border:thin solid #999;
+	background-color: #FFFFFF;
+}
+
+.conetent{
+	margin-left: 220px;
+	margin-right: 140px;
+	border:thin solid #999;
+	background-color: #FFFFFF;
+	padding: 0 20px 0 20px;
+}
+.rightdiv .img{
+	margin:20px;
+}
+
+img{
+	width: 80px;
+	height: 80px;
+	
+}
+.clear{
+	clear:both;
+}
